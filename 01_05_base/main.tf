@@ -12,6 +12,7 @@ variable "private_key_path" {}
 variable "region" {
   default = "us-west-2"
 }
+# changed region name above in variables
 
 variable "vpc_cidr" {
   default = "172.16.0.0/16"
